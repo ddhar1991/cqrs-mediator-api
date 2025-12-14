@@ -118,8 +118,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Commands\\Delete\\DeleteProductCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:49:57.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:49:57.59Z"
             },
             {
               "$type": "Document",
@@ -131,8 +130,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Commands\\Create\\CreateProductCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:48:42.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:48:42.876Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Commands\\Create\\CreateProductCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:48:31.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:48:31.164Z"
             },
             {
               "$type": "Document",
@@ -157,8 +154,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Queries\\Get\\GetProductQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:47:20.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:47:20.906Z"
             },
             {
               "$type": "Document",
@@ -183,8 +179,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Commands\\Delete\\DeleteProductCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:50:21.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:50:21.102Z"
             },
             {
               "$type": "Document",
@@ -196,12 +191,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Queries\\Get\\GetProductQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:47:10.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-12-14T02:47:10.638Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Queries\\List\\ListProductsQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:44:15.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:44:15.586Z"
             },
             {
               "$type": "Document",
@@ -226,8 +215,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Queries\\List\\ListProductsQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:44:02.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:44:02.68Z"
             },
             {
               "$type": "Document",
@@ -239,8 +227,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Features\\Products\\Dtos\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:39:54.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:39:54.354Z"
             },
             {
               "$type": "Document",
@@ -252,8 +239,7 @@
               "RelativeToolTip": "cqrs-mediatr\\Persistence\\AppDbContext.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA1wBMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:32:53.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:32:53.37Z"
             },
             {
               "$type": "Document",
@@ -265,8 +251,11 @@
               "RelativeToolTip": "cqrs-mediatr\\Domain\\Product.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA0wAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T02:31:08.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T02:31:08.653Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
