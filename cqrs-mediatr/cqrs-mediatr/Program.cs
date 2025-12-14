@@ -2,6 +2,7 @@ using cqrs_mediatr.Features.Products.Commands.Create;
 using cqrs_mediatr.Features.Products.Commands.Delete;
 using cqrs_mediatr.Features.Products.Queries.Get;
 using cqrs_mediatr.Features.Products.Queries.List;
+using cqrs_mediatr.Notifications;
 using cqrs_mediatr.Persistence;
 using MediatR;
 using System.Reflection;
@@ -46,10 +47,11 @@ app.MapGet("/products", async (ISender mediatr) =>
     return Results.Ok(products);
 });
 
-app.MapPost("/products", async (CreateProductCommand command, ISender mediatr) =>
+app.MapPost("/products", async (CreateProductCommand command, IMediator mediatr) =>
 {
     var productId = await mediatr.Send(command);
     if (Guid.Empty == productId) return Results.BadRequest();
+    await mediatr.Publish(new ProductCreatedNotification(productId));
     return Results.Created($"/products/{productId}", new { id = productId });
 });
 
