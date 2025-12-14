@@ -63,7 +63,7 @@ cqrs-mediatr/
 - Optional: Visual Studio 2022 / VS Code
 
 ### Install packages (if not already)
-- bash
+### bash
 dotnet add package MediatR
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
