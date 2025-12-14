@@ -98,6 +98,7 @@ cqrs-mediatr/
 ### Domain Model and DTO
 - Domain/Product.cs
 
+```csharp
 public class Product
 {
     public Guid Id { get; private set; } = Guid.NewGuid();
