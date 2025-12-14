@@ -64,15 +64,15 @@ cqrs-mediatr/
 
 ### Install packages (if not already)
 ### bash
-dotnet add package MediatR
-dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.InMemory
-dotnet add package Swashbuckle.AspNetCore
+- dotnet add package MediatR
+- dotnet add package Microsoft.EntityFrameworkCore
+- dotnet add package Microsoft.EntityFrameworkCore.InMemory
+- dotnet add package Swashbuckle.AspNetCore
 
 ### Build and Run
-dotnet restore
-dotnet build
-dotnet run
+- dotnet restore
+- dotnet build
+- dotnet run
 
 ### Prerequisites
 - .NET SDK 8.0+
