@@ -113,13 +113,14 @@ public class Product
     public void Update(string name, string description, decimal price)
         => (Name, Description, Price) = (name, description, price);
 }
-
+```
 // Features/Products/DTOs/ProductDto.cs
+```csharp
 public record ProductDto(Guid Id, string Name, string Description, decimal Price);
-
+```
 ### EF Core DbContext (InMemory)
 - Persistence/AppDbContext.cs
-
+```csharp
 using Microsoft.EntityFrameworkCore;
 using Domain;
 
@@ -134,9 +135,9 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Product>().HasKey(p => p.Id);
     }
 }
-
+```
 ### MediatR Requests (Queries + Commands)
-
+```csharp
 // Queries
 public record ListProductsQuery : IRequest<List<ProductDto>>;
 public record GetProductQuery(Guid Id) : IRequest<ProductDto?>;
@@ -145,9 +146,9 @@ public record GetProductQuery(Guid Id) : IRequest<ProductDto?>;
 public record CreateProductCommand(string Name, string Description, decimal Price) : IRequest<Guid>;
 public record UpdateProductCommand(Guid Id, string Name, string Description, decimal Price) : IRequest;
 public record DeleteProductCommand(Guid Id) : IRequest;
-
+```
 ### Handlers (Examples)
-
+```csharp
 // List Products
 public class ListProductsQueryHandler : IRequestHandler<ListProductsQuery, List<ProductDto>>
 {
@@ -174,9 +175,9 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
         return product.Id;
     }
 }
-
+```
 ### Minimal API + Registrations
-
+```csharp
 // Program.cs
 using System.Reflection;
 using MediatR;
@@ -253,3 +254,4 @@ app.MapDelete("/api/products/{id:guid}", async (Guid id, IMediator mediator) =>
 });
 
 app.Run();
+```
