@@ -96,7 +96,8 @@ dotnet run
 ### Core Code Snippets
 
 ### Domain Model and DTO
-// Domain/Product.cs
+- Domain/Product.cs
+
 public class Product
 {
     public Guid Id { get; private set; } = Guid.NewGuid();
@@ -116,7 +117,8 @@ public class Product
 public record ProductDto(Guid Id, string Name, string Description, decimal Price);
 
 ### EF Core DbContext (InMemory)
-// Persistence/AppDbContext.cs
+- Persistence/AppDbContext.cs
+
 using Microsoft.EntityFrameworkCore;
 using Domain;
 
@@ -133,6 +135,7 @@ public class AppDbContext : DbContext
 }
 
 ### MediatR Requests (Queries + Commands)
+
 // Queries
 public record ListProductsQuery : IRequest<List<ProductDto>>;
 public record GetProductQuery(Guid Id) : IRequest<ProductDto?>;
@@ -143,6 +146,7 @@ public record UpdateProductCommand(Guid Id, string Name, string Description, dec
 public record DeleteProductCommand(Guid Id) : IRequest;
 
 ### Handlers (Examples)
+
 // List Products
 public class ListProductsQueryHandler : IRequestHandler<ListProductsQuery, List<ProductDto>>
 {
@@ -171,6 +175,7 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
 }
 
 ### Minimal API + Registrations
+
 // Program.cs
 using System.Reflection;
 using MediatR;
