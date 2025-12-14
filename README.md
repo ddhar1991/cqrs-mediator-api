@@ -25,6 +25,7 @@ A clean, minimal example of applying the CQRS pattern with MediatR in an ASP.NET
 <hr>
 
 ## Project Structure
+'''text
 cqrs-mediatr/
 ├── Domain/
 │   └── Product.cs
@@ -53,7 +54,7 @@ cqrs-mediatr/
 │               └── ListProductsQueryHandler.cs
 ├── Program.cs
 └── README.md
-
+'''
 
 <hr>
 
