@@ -257,11 +257,9 @@ app.MapDelete("/api/products/{id:guid}", async (Guid id, IMediator mediator) =>
 
 app.Run();
 ```
+
 ### Sample cURL
-
 '''bash
-
-
 # List
 curl -s http://localhost:5181/api/products
 # Get by Id
@@ -277,9 +275,8 @@ curl -s -X PUT http://localhost:5181/api/products/<GUID> \
 # Delete
 curl -s -X DELETE http://localhost:5181/api/products/<GUID>
 Repository Hygiene
-Ensure development artifacts are ignored:'''
-
-
+Ensure development artifacts are ignored:
+'''
 
 # .gitignore (excerpt)
 .vs/
