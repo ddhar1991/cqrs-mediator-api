@@ -257,3 +257,40 @@ app.MapDelete("/api/products/{id:guid}", async (Guid id, IMediator mediator) =>
 
 app.Run();
 ```
+### Sample cURL
+
+'''bash
+
+
+# List
+curl -s http://localhost:5181/api/products
+# Get by Id
+curl -s http://localhost:5181/api/products/<GUID>
+# Create
+curl -s -X POST http://localhost:5181/api/products \
+  -H "Content-Type: application/json" \
+  -d '{ "name":"Keyboard", "description":"Mechanical", "price":79.99 }'
+# Update
+curl -s -X PUT http://localhost:5181/api/products/<GUID> \
+  -H "Content-Type: application/json" \
+  -d '{ "id":"<GUID>", "name":"Keyboard Pro", "description":"Hot-swap", "price":129.99 }'
+# Delete
+curl -s -X DELETE http://localhost:5181/api/products/<GUID>
+Repository Hygiene
+Ensure development artifacts are ignored:'''
+
+
+
+# .gitignore (excerpt)
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+### Roadmap
+- Add validation (e.g., FluentValidation)
+- Replace InMemory with SQL Server or PostgreSQL
+- Add unit and integration tests
+- Introduce domain events/outbox for side effects
+- Add OpenAPI schemas and tighter error contracts
