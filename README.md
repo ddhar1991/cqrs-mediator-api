@@ -28,31 +28,31 @@ A clean, minimal example of applying the CQRS pattern with MediatR in an ASP.NET
 - cqrs-mediatr/
   - Domain/
     - Product.cs
-Persistence/
-AppDbContext.cs
-Features/
-Products/
-DTOs/
-ProductDto.cs
-Commands/
-Create/
-CreateProductCommand.cs
-CreateProductCommandHandler.cs
-Update/
-UpdateProductCommand.cs
-UpdateProductCommandHandler.cs
-Delete/
-DeleteProductCommand.cs
-DeleteProductCommandHandler.cs
-Queries/
-Get/
-GetProductQuery.cs
-GetProductQueryHandler.cs
-List/
-ListProductsQuery.cs
-ListProductsQueryHandler.cs
-Program.cs
-README.md
+  - Persistence/
+    - AppDbContext.cs
+  - Features/
+    - Products/
+      - DTOs/
+        - ProductDto.cs
+      - Commands/
+        - Create/
+          - CreateProductCommand.cs
+          - CreateProductCommandHandler.cs
+        - Update/
+          - UpdateProductCommand.cs
+          - UpdateProductCommandHandler.cs
+        - Delete/
+          - DeleteProductCommand.cs
+          - DeleteProductCommandHandler.cs
+      - Queries/
+        - Get/
+          - GetProductQuery.cs
+          - GetProductQueryHandler.cs
+        - List/
+          - ListProductsQuery.cs
+         - ListProductsQueryHandler.cs
+ - Program.cs
+ - README.md
 
 <hr>
 
