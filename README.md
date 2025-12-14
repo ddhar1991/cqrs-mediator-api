@@ -28,8 +28,10 @@ A clean, minimal example of applying the CQRS pattern with MediatR in an ASP.NET
 - cqrs-mediatr/
   - Domain/
     - Product.cs
+      
   - Persistence/
     - AppDbContext.cs
+      
   - Features/
     - Products/
       - DTOs/
