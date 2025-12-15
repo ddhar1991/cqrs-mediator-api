@@ -92,6 +92,7 @@ dotnet run
 - Testable handlers for each operation
 - Read and write paths can evolve independently
 - Scales nicely as features grow
+- Better Performance
 
 ### Core Code Snippets
 
