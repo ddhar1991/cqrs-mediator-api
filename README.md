@@ -94,6 +94,7 @@ A clean, minimal example of applying the CQRS pattern with MediatR in an ASP.NET
 - Testable handlers for each operation
 - Read and write paths can evolve independently
 - Scales nicely as features grow
+- Better Performance
 
 ### Core Code Snippets
 
